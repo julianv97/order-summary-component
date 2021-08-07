@@ -6,10 +6,10 @@ module.exports = {
       sm: "200px",
       // => @media (min-width: 640px) { ... }
 
-      md: "420px",
+      md: "440px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "500px",
+      lg: "780px",
       // => @media (min-width: 1024px) { ... }
 
       xl: "1280px",

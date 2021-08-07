@@ -4,7 +4,7 @@ import { ReactComponent as Music } from "./assets/icon-music.svg";
 function App() {
   return (
     <body className="h-auto pt-10  bg-mobile-pattern lg:bg-desktop-pattern bg-cover  flex flex-col items-center justify-center font-red-hat-display">
-      <section className="w-60 md:w-min  bg-white rounded-xl overflow-hidden flex flex-col items-center shadow-2xl">
+      <section className="w-60 md:w-min  bg-white rounded-xl overflow-hidden flex flex-col items-center shadow-2xl container mx-auto">
         <div className="">
           <Hero />
         </div>
