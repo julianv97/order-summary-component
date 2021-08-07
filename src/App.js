@@ -44,7 +44,7 @@ function App() {
           </button>
         </div>
       </section>
-      <footer className="w-60 text-sm md:text-md">
+      <footer className=" text-sm md:text-md">
         Challenge by Frontend Mentor. Coded by Julian Vicente.
       </footer>
     </body>
