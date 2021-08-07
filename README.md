@@ -2,4 +2,4 @@
 
 Challenge realizado con React + TailwindCSS
 
-#### Link: 
+#### Link: https://order-summary-component-julianv97.vercel.app/
