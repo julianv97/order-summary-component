@@ -10,7 +10,9 @@ function App() {
         </div>
 
         <div className="container mx-10 flex flex-col items-center ">
-          <h1 className="text-dark-blue text-2xl font-extrabold pt-8">Order Summary</h1>
+          <h1 className="text-dark-blue text-2xl font-extrabold pt-8">
+            Order Summary
+          </h1>
           <p className="px-10 py-4 text-center text-desaturated-blue">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
@@ -21,16 +23,25 @@ function App() {
           <div class="flex">
             <Music className="mr-4" />
             <div>
-              <h3 className="text-dark-blue text-md  font-extrabold">Annual Plan</h3>
+              <h3 className="text-dark-blue text-md  font-extrabold">
+                Annual Plan
+              </h3>
               <p className="text-desaturated-blue text-sm">$59.99/year</p>
             </div>
           </div>
-          <button className="text-sm text-bright-blue font-bold"> Change</button>
+          <button className="text-sm text-bright-blue font-bold">
+            {" "}
+            Change
+          </button>
         </div>
 
         <div className="w-full flex flex-col items-center py-10">
-          <button className="bg-bright-blue w-3/4 rounded-lg py-2 text-white font-bold">Proceed to Payment</button>
-          <button className="pt-6 text-desaturated-blue font-bold">Cancel Order</button>
+          <button className="bg-bright-blue w-3/4 rounded-lg py-2 text-white font-bold">
+            Proceed to Payment
+          </button>
+          <button className="pt-6 text-desaturated-blue font-bold">
+            Cancel Order
+          </button>
         </div>
       </section>
       <footer class="attribution">
