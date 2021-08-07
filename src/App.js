@@ -4,12 +4,12 @@ import { ReactComponent as Music } from "./assets/icon-music.svg";
 function App() {
   return (
     <body className="h-auto pt-10  bg-mobile-pattern lg:bg-desktop-pattern bg-cover  flex flex-col items-center justify-center font-red-hat-display">
-      <section className="w-min  bg-white rounded-xl overflow-hidden flex flex-col items-center shadow-2xl">
-        <div>
+      <section className="w-60 md:w-min  bg-white rounded-xl overflow-hidden flex flex-col items-center shadow-2xl">
+        <div className="">
           <Hero />
         </div>
 
-        <div className="container mx-10 flex flex-col items-center ">
+        <div className="container flex flex-col items-center ">
           <h1 className="text-dark-blue text-2xl font-extrabold pt-8">
             Order Summary
           </h1>
@@ -44,7 +44,7 @@ function App() {
           </button>
         </div>
       </section>
-      <footer class="attribution">
+      <footer className="w-60 text-sm md:text-md">
         Challenge by Frontend Mentor. Coded by Julian Vicente.
       </footer>
     </body>
